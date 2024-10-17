@@ -1,7 +1,7 @@
 resource "aws_instance" "apache_server" {
   ami           = "ami-0866a3c8686eaeeba" # Ubuntu
   instance_type = var.instance_type
-  # key_name      = var.key_name
+  key_name      = var.key_name
 
 user_data = <<-EOF
             #!/bin/bash
