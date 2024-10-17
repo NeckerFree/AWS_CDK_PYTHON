@@ -1,17 +1,17 @@
 {
-    "name": "AWS_CDK_DEPLOY_APACHE",
-    "dockerFile": "Dockerfile", 
+    "name": "AWS_CDK_PYTHON",
+    "dockerFile": "Dockerfile",
     "customizations": {
         "vscode": {
             "extensions": [
-              "dbaeumer.vscode-eslint",
-              "eamodio.gitlens",
-              "esbenp.prettier-vscode",
-              "syler.sass-indented",
-              "stylelint.vscode-stylelint",
-              "rangav.vscode-thunder-client",
-              "ms-python.python",
-              "mikoz.black-py"
+                "dbaeumer.vscode-eslint",
+                "eamodio.gitlens",
+                "esbenp.prettier-vscode",
+                "syler.sass-indented",
+                "stylelint.vscode-stylelint",
+                "rangav.vscode-thunder-client",
+                "ms-python.python",
+                "mikoz.black-py"
             ],
             "settings": {
                 "extensions.verifySignature": false,
@@ -22,4 +22,4 @@
             }
         }
     }
-  }
+}
