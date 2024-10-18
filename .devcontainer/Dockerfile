@@ -17,11 +17,11 @@ RUN npm install -g aws-cdk
 
 # RUN pip install -r requirements.txt
 
-RUN wget https://releases.hashicorp.com/terraform/1.9.5/terraform_1.9.5_linux_amd64.zip \
-    && unzip terraform_1.9.5_linux_amd64.zip \ 
-    && mv terraform /usr/local/bin \
-    && rm terraform_1.9.5_linux_amd64.zip
+# RUN wget https://releases.hashicorp.com/terraform/1.9.5/terraform_1.9.5_linux_amd64.zip \
+#     && unzip terraform_1.9.5_linux_amd64.zip \ 
+#     && mv terraform /usr/local/bin \
+#     && rm terraform_1.9.5_linux_amd64.zip
 
-WORKDIR /WORKDIR
+# WORKDIR /WORKDIR
 
 CMD ["bash"]
