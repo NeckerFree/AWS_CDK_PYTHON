@@ -2,3 +2,4 @@ infra/terraform/ec2/.terraform.lock.hcl
 infra/terraform/ec2/terraform.tfstate
 infra/terraform/ec2/terraform.tfstate.backup
 cdk.out/
+infra/terraform/ec2/.terraform/
